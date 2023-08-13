@@ -46,10 +46,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-Special thanks to [Coding Ninjas](https://www.codingninjas.com/) for their insightful course, which significantly contributed to the development of this Huffman coding implementation. The knowledge gained from their course has been pivotal in creating an efficient solution.
-
 This implementation was inspired by the Huffman coding algorithm and its applications in data compression.
 
+Special thanks to [Coding Ninjas](https://www.codingninjas.com/) for their insightful course, which significantly contributed to the development of this Huffman coding implementation. The knowledge gained from their course has been pivotal in creating an efficient solution.
 
 ## Contributing
 
