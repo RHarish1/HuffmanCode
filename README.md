@@ -7,6 +7,21 @@ Compress and decompress File
 
 This is a Python implementation of the Huffman coding algorithm, a widely used compression technique in computer science. Huffman coding is used to encode data in a way that reduces its size, making it useful for data compression and transmission.
 
+Several data structures are being used in this implementation:
+
+BinaryTreeNode: This class represents a node in the binary tree that is constructed during the Huffman coding process. It contains attributes for the character value, frequency, and references to the left and right child nodes.
+
+Heap: A heap is used to maintain the frequency of characters in ascending order. Python's heapq module is used to create a min-heap. The heap is used to efficiently select nodes with the lowest frequencies during the tree construction.
+
+Dictionary: Dictionaries are used to store frequency information for characters. The keys are characters, and the values are their corresponding frequencies.
+
+Strings: Strings are used to represent the encoded bits for characters. The __codes dictionary stores the Huffman codes for each character, and the __reversecodes dictionary stores the reverse mapping of codes to characters.
+
+Lists (Arrays): Lists are used to store bytes and integers. The array list is used to store bytes representing the encoded text, and the bytes_array list is used to store integers representing the binary representation of the encoded text.
+
+File I/O: The code reads and writes data to/from files. It uses the open() function to read and write data, interacting with the underlying file system.
+
+Binary Tree: A binary tree is constructed during the Huffman coding process. The __buildTree() method constructs the Huffman tree by repeatedly combining nodes with the lowest frequencies.
 ## Features
 
 - Text compression and decompression using Huffman coding.
